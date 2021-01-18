@@ -76,6 +76,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun searchUsers(username: String?, page: Int) {
         val client = AsyncHttpClient()
+        progressBar.visibility = View.VISIBLE
 
         val url = "https://api.github.com/search/users?q=$username&page=$page&per_page=10"
         client.addHeader("Authorization", USER_TOKEN)
