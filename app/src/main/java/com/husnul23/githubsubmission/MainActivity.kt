@@ -32,7 +32,6 @@ class MainActivity : AppCompatActivity() {
 
         layoutManager = LinearLayoutManager(this)
         rv_github.layoutManager = layoutManager
-        rv_github.setHasFixedSize(true)
         showRecycleList()
 
         isLoading = false
