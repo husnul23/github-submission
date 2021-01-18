@@ -1,2 +1,0 @@
-com/husnul23/githubsubmission/BuildConfig.java
- com.husnul23.githubsubmission.BuildConfig
